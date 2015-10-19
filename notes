@@ -1,0 +1,24 @@
+expressions 
+module - where application components live
+controller - where we add application behavior
+directive - html annotations that influence JS behavior
+directive: ng-hide
+directive: ng-show
+directive: ng-repeat
+
+Expression:
+	
+	js: 
+		var gem = {};
+
+	html:
+		product.name
+
+Module: 
+
+	var app = angular.module('gemStore', []);
+
+Controller:
+
+	app.controller('StoreController', function()
+	});
